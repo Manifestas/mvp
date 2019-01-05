@@ -25,4 +25,24 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    //Retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.0.2'
+    //OkHttp
+    implementation 'com.squareup.okhttp3:okhttp:3.2.0'
+    implementation 'com.squareup.okio:okio:1.7.0'
+
+    //Gson
+    implementation 'com.google.code.gson:gson:2.6.2'
+    implementation 'com.squareup.retrofit2:converter-gson:2.0.1'
+
+    //RxJava
+    implementation 'io.reactivex:rxjava:1.1.2'
+    implementation 'io.reactivex:rxandroid:1.1.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava:2.0.1'
+
+    //Dagger
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.2'
+    implementation 'com.google.dagger:dagger:2.2'
+    provided 'javax.annotation:jsr250-api:1.0'
 }
