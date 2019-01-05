@@ -17,6 +17,6 @@ public interface MainScreenContract {
 
     interface Presenter {
 
-        void showPost();
+        void loadPost();
     }
 }

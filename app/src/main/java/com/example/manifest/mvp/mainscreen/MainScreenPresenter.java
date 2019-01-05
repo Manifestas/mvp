@@ -25,7 +25,7 @@ public class MainScreenPresenter implements MainScreenContract.Presenter{
     }
 
     @Override
-    public void showPost() {
+    public void loadPost() {
         retrofit.create(PostService.class)
                 .getPostList()
                 .subscribeOn(Schedulers.io())
