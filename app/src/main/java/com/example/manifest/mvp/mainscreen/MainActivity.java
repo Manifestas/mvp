@@ -1,7 +1,9 @@
-package com.example.manifest.mvp;
+package com.example.manifest.mvp.mainscreen;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.manifest.mvp.R;
 
 public class MainActivity extends AppCompatActivity {
 
